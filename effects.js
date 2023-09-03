@@ -23,3 +23,7 @@ annotationEnd.show();
 const job = document.querySelector('.hire')
 const annotationHire = annotate(job, { type: 'circle' , color:'#fcf8f3', weight:1});
 annotationHire.show();
+
+const projects = document.querySelector('.projecty')
+const annotationProject = annotate(projects, { type: 'underline' , color:'#77529e'});
+annotationProject.show();
