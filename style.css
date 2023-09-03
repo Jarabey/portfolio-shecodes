@@ -65,11 +65,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.highlight {
+    font-family: Poppins;
+    font-size: 15px;
+    margin: 0 0 50px 0;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
 .hero h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
     line-height: 1.5;
     font-size: 24px;
+
 }
 
 h2 {
@@ -122,4 +131,8 @@ footer .contact-box {
 
 .content p {
     font-size: 14px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
 }

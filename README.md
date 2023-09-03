@@ -3,8 +3,9 @@
 ## Git Commands
 <b>There are 3 main git commands:</b>
 
-* **git add** - This is used to add files, folders, etc. to local staging environment. So Git knows context or objects you want to to push to your repo
-* **git commit** - This is used to attach a contextual message to the your git files you'll be pushing
+* **git add `<file/folder names>`** - This is used to add files, folders, etc. to local staging environment. So Git knows context or objects you want to to push to your repo
+* **git add -A** - This is used to add all the files and folders in your current directory
+* **git commit -m `<enter your git message here>`** - This is used to attach a contextual message to the your git files you'll be pushing
 * **git push** - This pushes your local files to your git repo
 
 ## Markdown
@@ -25,6 +26,8 @@ Files that end in `.md` are known as markdown files, an example of this would be
 
 - **git checkout** `<branch-name>` - To switch to a different branch
 - **git checkout -b** `<new-branch-name>` - To create a new branch _[Note: branch won't be created until you actually push to the new branch]_
+- **git branch** `<branch-name>` - To view all branches in your local repo
+- 
 
 ## Approach to coding
 - To develop logical reasoning - it's better to try and figure things out before using the net, in doing so you learn a lot more. e.g. learning how to do other things which might be useful in the future.
